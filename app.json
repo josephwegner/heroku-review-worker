@@ -2,7 +2,20 @@
   "name": "heroku-review-worker",
   "scripts": {},
   "env": {},
-  "formation": {},
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "hobby"
+    },
+    "worker": {
+      "quantity": 1,
+      "size": "hobby"
+    },
+    "es-worker": {
+      "quantity": 1,
+      "size": "hobby"
+    }
+  },
   "addons": [],
   "buildpacks": [
     {
