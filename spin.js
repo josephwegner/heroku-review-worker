@@ -1,1 +1,1 @@
-setInterval(console.log.bind('Hit'), 1000);
+console.log('bai');
