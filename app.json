@@ -16,7 +16,8 @@
       "size": "hobby"
     },
     "test": {
-      "size": "hobby"
+      "size": "hobby",
+      "quantity": 1
     }
   },
   "addons": [],
