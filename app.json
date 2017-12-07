@@ -20,6 +20,7 @@
     {
      "plan": "heroku-postgresql",
      "name": "OTHER_POSTGRES",
+     "as": "OOOOTHER_POSTGRES",
      "options": {
         "name": "MY_OTHER_POSTGRES"
      }
@@ -27,6 +28,7 @@
     {
      "plan": "heroku-postgresql",
      "name": "COOL_POSTGRES",
+     "as": "COOLIO_POSTGRES",
      "options": {
         "name": "MY_COOL_POSTGRES"
      }
