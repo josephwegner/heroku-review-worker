@@ -19,10 +19,18 @@
   "addons": [
     {
      "plan": "heroku-postgresql",
+     "name": "OTHER_POSTGRES",
      "options": {
         "name": "MY_OTHER_POSTGRES"
      }
-    } 
+    },
+    {
+     "plan": "heroku-postgresql",
+     "name": "COOL_POSTGRES",
+     "options": {
+        "name": "MY_COOL_POSTGRES"
+     }
+    }
   ],
   "buildpacks": [
     {
