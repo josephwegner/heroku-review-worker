@@ -16,7 +16,14 @@
       "size": "hobby"
     }
   },
-  "addons": [],
+  "addons": [
+    {
+     "plan": "heroku-postgres",
+     "options": {
+        "name": "MY_OTHER_POSTGRES"
+     }
+    } 
+  ],
   "buildpacks": [
     {
       "url": "heroku/nodejs"
